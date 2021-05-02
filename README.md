@@ -19,6 +19,23 @@ git clone -n https://github.com/tomaztk/MSSQLSERVER_Pandas.git
 <!-- end list -->
 
 ``` sql
+-- sample table
+SELECT TOP 10 
+   name
+  ,object_id
+FROM sys.tables
+
+
+EXECUTE sp_execute_external_script @language = N'Python'
+      ,@script = N'
+      import pandas as pd
+      OutputDataSet = pd.DataFrame(InputDataSet);
+      '
+      , @input_data_1 = N'SELECT TOP 10 name,object_id FROM sys.tables'
+WITH RESULT SETS((
+        [Name] VARCHAR(150) NOT NULL
+       ,[object_ID] CHAR(20) NOT NULL
+         ));
 
 ```
 
