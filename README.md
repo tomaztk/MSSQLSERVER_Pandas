@@ -6,7 +6,7 @@ Using Python Pandas dataframe to read and insert data to Microsoft SQL Server
 ## Cloning the repository
 You can follow the steps below to clone the repository.
 ```
-git clone -n https://github.com/tomaztk/MSSQLSERVER_Pandas.git
+git clone  https://github.com/tomaztk/MSSQLSERVER_Pandas.git
 ```
 
 
