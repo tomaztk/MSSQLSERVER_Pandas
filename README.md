@@ -58,7 +58,8 @@ WITH RESULT SETS((
 import pandas as pd
 import pyodbc
 
-sql_conn = pyodbc.connect('DRIVER={ODBC Driver 13 for SQL Server};SERVER=SQLSERVER2017;DATABASE=master;Trusted_Connection=yes') 
+sql_conn = pyodbc.connect('DRIVER={ODBC Driver 13 for SQL Server};  \
+           SERVER=SQLSERVER2017;DATABASE=master;Trusted_Connection=yes') 
 query = "SELECT * FROM sys.tables"
 df = pd.read_sql(query, sql_conn)
 
