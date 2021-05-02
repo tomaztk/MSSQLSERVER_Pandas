@@ -1,9 +1,11 @@
 # Using Microsoft SQL SQLSERVER with Python Pandas
 
-Using Python Pandas dataframe to read and insert data to Microsoft SQL Server.
+Using **Python Pandas** dataframe to read and insert data to **Microsoft SQL Server**.
 
-<img src="img/mssqlserver.png" align="right" width="400" />
+<img src="img/mssqlserver.png" align="left" width="400" />
 <img src="img/pandas.png"  width="240" />
+
+<br />
 
 
 ## Cloning the repository
