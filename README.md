@@ -65,3 +65,11 @@ df = pd.read_sql(query, sql_conn)
 
 df.head(3)
 ```
+
+## Collaboration and contributors
+Contributions of any kind is highly appreciated! Fork the repository, add your code.
+
+
+## Contact
+Feel free to get in touch for questions regarding Python and MSSQL Server connectivity.
+
